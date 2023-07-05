@@ -98,3 +98,21 @@ body{
     bottom: -150px;
     z-index: -1;
 }
+
+@media (max-width:767px){
+    .myForm {
+        width: 420px;
+    }
+    .down-circle {
+        width: 150px;
+        height: 150px;
+        left: 0;
+        bottom: -175px;
+    }
+    .up-circle {
+        width: 150px;
+        height: 150px;
+        right: -150px;
+        top: 25px;
+    }
+}
